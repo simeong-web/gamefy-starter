@@ -1,0 +1,42 @@
+body {
+    background: $colour-primary;
+    font-family: 'Righteous', cursive;
+    padding: 0 1em;
+    color: $colour-default;
+}
+
+a {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+.primary-card {
+    margin-top: 1em;
+}
+
+.primary-card-content {
+    margin-top: .5em;
+}
+
+.primary-game-title {
+    font-size: $font-medium;
+}
+
+.primary-game-stats span {
+    font-size: $font-small;
+
+    &:last-child {
+        color: $colour-secondary-light;
+    }
+}
+
+.site-section-heading {
+    margin-top: 5em;
+}
+
+.site-section-title {
+    font-size: $font-lg;
+}

@@ -1,0 +1,26 @@
+.error-image-wrapper img {
+    max-width: 400px;
+}
+
+.error-image-wrapper {
+    margin: auto 0 auto auto;
+}
+
+.error-message-heading {
+    font-size: $font-xl;
+}
+
+.error-message-paragraph {
+    font-size: $font-medium;
+}
+
+@media (min-width: 769px) {
+    .error-page {
+        height: 60vh;
+    }
+
+    .error-message-wrapper {
+        padding: 0 3em;
+        margin: auto 0;
+    }
+}

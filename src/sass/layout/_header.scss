@@ -1,0 +1,44 @@
+.site-header {
+    margin: 2em auto;
+}
+
+.site-header-img {
+    background-color: #ddd;
+    max-width: 120px;
+}
+
+.site-header-title {
+    h1 {
+        font-size: $font-xl;
+    }
+
+    h2 {
+        color: $colour-secondary;
+        font-size: $font-xl;
+    }
+}
+
+.list-item {
+    a {
+        font-size: $font-medium;
+        text-decoration: underline;
+    }
+
+    &:not(:first-child) {
+        margin-left: 2em;
+    }
+}
+
+.site-search-field {
+    background: $colour-default;
+    padding: .25em .5em;
+    border-radius: 8px;
+
+    &::placeholder {
+        color: $colour-secondary;
+    }
+}
+
+#menu-toggle:checked + #menu {
+    display: block;
+}

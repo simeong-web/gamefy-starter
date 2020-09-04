@@ -1,0 +1,49 @@
+.comments-section {
+    flex: 1;
+}
+
+.comments-wrapper,
+.comments-response {
+    margin-top: .75em;
+
+    .button-primary-wrapper {
+        margin: .75em 0;
+    }
+}
+
+.comments-response {
+    margin-left: 5em;
+}
+
+.comments-image-wrapper img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.comments-content {
+    margin-left: .5em;
+    flex: 1 1 50%;
+
+    @media (max-width: $breakpoint-medium) {
+        flex: 1;
+    }
+}
+
+.comments-description {
+    margin: .25em 0;
+    width: 50%;
+
+    @media (max-width: $breakpoint-medium) {
+        width: 100%;
+    }
+}
+
+.comments-name,
+.comments-stats {
+    color: $colour-default-dark;
+    opacity: .7;
+}
+
+.comments-name {
+    font-size: $font-medium;
+}

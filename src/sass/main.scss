@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// Base
+@import 'base/settings';
+@import 'base/base';
+@import 'base/buttons';
+@import 'base/containers';
+
+// Layout
+@import 'layout/header';
+@import 'layout/landing';
+@import 'layout/popular';
+@import 'layout/single';
+@import 'layout/comments';
+@import 'layout/more-games';
+@import 'layout/footer';
+
+// Components
+@import 'components/error';

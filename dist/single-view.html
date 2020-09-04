@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamefy.io | Game your way!</title>
+</head>
+<body>
+    <header class="site-header container xl flex justify-between">
+      <div class="site-header-logo flex">
+        <div class="site-header-img"></div>
+        <div class="site-header-title flex ml-2 items-center">
+          <h1>Gamefy</h1>
+          <h2>.IO</h2>
+        </div>
+      </div>
+      <div class="site-searchbar-wrapper flex items-center">
+        <form method="GET">
+          <input type="text" class="site-search-field" placeholder="Search...">
+        </form>
+      </div>
+      <label for="menu-toggle" class="cursor-pointer lg:hidden block"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></label>
+      <input type="checkbox" class="hidden" id="menu-toggle">
+      <div class="hidden lg:flex lg:items-center" id="menu">
+        <nav class="site-navigation lg:flex items-center">
+          <ul class="nav-list lg:flex lg:justify-between">
+            <li class="list-item"><a href="#" class="block">All Games</a></li>
+            <li class="list-item"><a href="#" class="block">New Comers</a></li>
+            <li class="list-item"><a href="#" class="block">Sign in</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="single-view-navigation container flex justify-between mx-auto">
+        <div class="single-view-button-wrapper">
+            <a href="/" class="button-primary return">Back</a>
+        </div>
+        <div class="single-view-button-wrapper">
+            <a href="#" class="button-primary next">Next</a>
+        </div>
+    </div>
+    <section class="single-view-section container mx-auto">
+        <div class="single-view-wrapper">
+            <img src="./img/placeholder-1.jpg" alt="game-player">
+            <div class="single-view-content flex justify-between">
+                <h2 class="single-view-title">World of Warcraft</h2>
+                <h3 class="single-view-stats">
+                    <span class="likes">9</span>k likes
+                    /
+                    <span class="dislikes">2</span>k dislikes
+                </h3>
+            </div>
+            <div class="single-view-details flex justify-between">
+                <p class="single-view-description">Join this one of a kind adventure with us, where you will explore the beautiful world of Warcraft! This is a vast...</p>
+                <span>95%</span>
+            </div>
+        </div>
+        <div class="primary-button-wrapper">
+            <a class="button-primary single-more">View More</a>
+        </div>
+    </section>
+    <main class="site-main block lg:flex container mx-auto">
+      <section class="comments-section">
+        <div class="site-section-heading">
+            <h2 class="site-section-title">Comments</h2>
+        </div>
+        <div class="comments-wrapper flex flex-wrap">
+          <div class="comments-image-wrapper">
+            <img src="./img/avatar-1.png" alt="avatar" height="70" width="70">
+          </div>
+          <div class="comments-content">
+            <h3 class="comments-name">Tom H.</h3>
+            <p class="comments-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quod eligendi ab commodi iusto, ratione blanditiis id facere ducimus maiores.</p>
+            <span class="comments-stats">Today at 13:25 PM</span>
+            <div class="button-primary-wrapper">
+              <a class="button-respond">Respond</a>
+            </div>
+          </div>
+          <div class="comments-response flex">
+            <div class="comments-image-wrapper">
+              <img src="./img/avatar-1.png" alt="avatar" height="70" width="70">
+            </div>
+            <div class="comments-content">
+              <h3 class="comments-name">John D.</h3>
+              <p class="comments-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quod eligendi ab commodi iusto, ratione blanditiis id facere ducimus maiores.</p>
+              <span class="comments-stats">Today at 13:43 PM</span>
+            </div>
+          </div>
+        </div>
+        <div class="comments-wrapper flex flex-wrap">
+          <div class="comments-image-wrapper">
+            <img src="./img/avatar-2.png" alt="avatar" height="70" width="70">
+          </div>
+          <div class="comments-content">
+            <h3 class="comments-name">Sally M.</h3>
+            <p class="comments-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quod eligendi ab commodi iusto, ratione blanditiis id facere ducimus maiores.</p>
+            <span class="comments-stats">Yesterday at 9:45 AM</span>
+            <div class="button-primary-wrapper">
+              <a class="button-respond">Respond</a>
+            </div>
+          </div>
+        </div>
+        <div class="primary-button-wrapper">
+          <a class="button-primary single-comments">View More</a>
+        </div>
+      </section>
+      <section class="more-games-section">
+        <div class="site-section-heading">
+          <h2 class="site-section-title">More Games</h2>
+        </div>
+        <div class="more-games-wrapper">
+          <div class="more-games-image-wrapper">
+            <a href="/single-view.html"><img src="./img/placeholder-1.jpg" alt="more-games"></a>
+          </div>
+          <div class="more-games-content">
+              <h3 class="more-games-title">
+                World of Warcraft
+              </h3>
+            </div>
+            <div class="more-games-stats flex justify-between">
+              <span>18k plays</span>
+              <span>95%</span>
+          </div>
+        </div>
+        <div class="more-games-wrapper">
+          <div class="more-games-image-wrapper">
+            <a href="/single-view.html"><img src="./img/placeholder-1.jpg" alt="more-games"></a>
+          </div>
+          <div class="more-games-content">
+              <h3 class="more-games-title">
+                World of Warcraft
+              </h3>
+            </div>
+            <div class="more-games-stats flex justify-between">
+              <span>18k plays</span>
+              <span>95%</span>
+          </div>
+        </div>
+        <div class="more-games-wrapper">
+          <div class="more-games-image-wrapper">
+            <a href="/single-view.html"><img src="./img/placeholder-1.jpg" alt="more-games"></a>
+          </div>
+          <div class="more-games-content">
+              <h3 class="more-games-title">
+                World of Warcraft
+              </h3>
+            </div>
+            <div class="more-games-stats flex justify-between">
+              <span>18k plays</span>
+              <span>95%</span>
+          </div>
+        </div>
+        <div class="primary-button-wrapper">
+          <a class="button-primary single-games">View More</a>
+        </div>
+      </section>
+    </main>
+    <footer class="block lg:flex justify-between mx-auto">
+        <div class="footer-company">
+          <div class="footer-company-logo flex">
+            <h4>Gamefy</h4>
+            <span>.IO</span>
+          </div>
+          <p class="footer-company-details">
+            We are a small business focusing on delivering great standard for all gamers everywhere! 
+            Our games always aim to deliver the most fun experience ever!
+          </p>
+        </div>
+        <div class="footer-links">
+          <a class="footer-link-item" href="/">Contact Us</a>
+          <a class="footer-link-item" href="/">Privacy Policy</a>
+          <a class="footer-link-item" href="/">Terms of Service</a>
+          <a class="footer-link-item" href="/">Careers</a>
+        </div>
+        <div class="footer-social">
+          <p class="footer-social-details">Find us on social media!</p>
+          <div class="footer-social-icons">
+            <a href="/" class="footer-social-facebook"></a>
+            <a href="/" class="footer-social-twitter"></a>
+            <a href="/" class="footer-social-instagram"></a>
+          </div>
+        </div>
+    </footer>
+    <script src="./bundle.js"></script>
+</body>
+</html>
